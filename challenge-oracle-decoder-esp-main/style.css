@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(221, 81, 81);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(27, 26, 26);
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 20px;
+  width: 30vw;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(243, 239, 20);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: 15vw;
+  position: relative;
+  left: 8em;
+  top: 2.5em;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: #000005;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+}
+
+.footer-style {
+  padding-top: 50px;
+  background-color: #000000;
+}
+footer {
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+footer h3 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #060707;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  bottom: -190px;
+  left: -330px;
+}
